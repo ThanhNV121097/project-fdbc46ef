@@ -1,11 +1,32 @@
 {
-  "site": { "name": "Your business" },
-  "nav": { "links": [{ "label": "Home", "href": "/" }], "cta": { "label": "Get in touch", "href": "#contact" } },
-  "hero": {
-    "eyebrow": "",
-    "headline": "A headline of a few words",
-    "sub": "One line under it, and no more.",
-    "cta": { "label": "Get in touch", "href": "#contact" }
+  "site": { "name": "Tony Apple" },
+  "nav": {
+    "links": [
+      { "label": "Accessories", "href": "#accessories" },
+      { "label": "Visit", "href": "#visit" }
+    ],
+    "cta": { "label": "Get directions", "href": "https://maps.google.com/?q=19+Duy+Tan,+Ha+Noi" }
   },
-  "footer": { "line": "Your business · District 1, Saigon" }
+  "hero": {
+    "headline": "Genuine Apple accessories",
+    "sub": "Cases, chargers, cables and AirPods gear, in stock at 19 Duy Tân.",
+    "cta": { "label": "See accessories", "href": "#accessories" },
+    "image": { "caption": "Photo: accessories wall" }
+  },
+  "accessories": {
+    "heading": "Accessories",
+    "items": [
+      { "name": "AirPods & audio", "detail": "Cases, ear tips and charging docks for every AirPods generation." },
+      { "name": "Cases & screens", "detail": "iPhone cases and tempered glass, fitted while you wait." },
+      { "name": "Charging & cables", "detail": "MagSafe, USB-C and Lightning, original and MFi-certified." },
+      { "name": "Watch bands", "detail": "Sport, leather and metal bands for every Apple Watch size." }
+    ]
+  },
+  "visit": {
+    "heading": "Visit the shop",
+    "address": "19 Duy Tân, Hà Nội",
+    "cta": { "label": "Get directions", "href": "https://maps.google.com/?q=19+Duy+Tan,+Ha+Noi" },
+    "image": { "caption": "Photo: storefront" }
+  },
+  "footer": { "line": "Tony Apple · 19 Duy Tân, Hà Nội" }
 }

@@ -1,22 +1,27 @@
 /* The design's tokens. Every colour, face and shape on the site is one of
    these, so the owner changes the whole site by changing a value here — in
-   the Studio, without a rebuild. Components never carry a raw colour. */
+   the Studio, without a rebuild. Components never carry a raw colour.
+
+   Tony Apple sells Apple accessories in Hanoi. The palette borrows the
+   near-black ground Apple itself uses on a product page, paired with the
+   warm brass of a leather case or a gold finish — the one accent, used only
+   on the two buttons and a hairline under the shop's name. */
 :root {
-  --ground: #F6F2EA;
-  --surface: #FFFFFF;
-  --ink: #1B1917;
-  --ink-soft: #5E5954;
-  --accent: #B8412E;
-  --accent-ink: #FFFFFF;
-  --line: rgba(27, 25, 23, 0.12);
+  --ground: #0A0A0B;
+  --surface: #161618;
+  --ink: #F5F5F3;
+  --ink-soft: #9B9B9D;
+  --accent: #C9A227;
+  --accent-ink: #0A0A0B;
+  --line: rgba(245, 245, 243, 0.12);
 
-  --font-display: "Fraunces";
+  --font-display: "Manrope";
   --font-body: "Inter";
-  --weight-display: 500;
-  --tracking-display: -0.02em;
+  --weight-display: 700;
+  --tracking-display: -0.03em;
 
-  --radius: 12px;
-  --radius-sm: 6px;
+  --radius: 20px;
+  --radius-sm: 10px;
   --radius-pill: 999px;
 
   /* Spacing, shadow and motion: one scale each, so a story can always name a
@@ -29,10 +34,10 @@
   --space-8: 32px;
   --space-12: 48px;
   --space-16: 64px;
-  --shadow-sm: 0 1px 2px rgba(27, 25, 23, 0.06);
-  --shadow-md: 0 8px 24px -12px rgba(27, 25, 23, 0.25);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 16px 40px -16px rgba(0, 0, 0, 0.6);
   --duration-fast: 120ms;
-  --duration-base: 220ms;
+  --duration-base: 600ms;
   --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
 
   --page: 1160px;
